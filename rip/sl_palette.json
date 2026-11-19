@@ -1,0 +1,985 @@
+{
+ "note": "Sand Loop 1.18.0 colours. LOCAL research use. There are no numeric colour ids: a level lists its own RGBA sand colours (chunk value = index into level.colors), and bucket / inside-bucket / grain-particle / sand materials are looked up by the exact Color key in ColorManagerSO (ColorManager-Load.asset) [D]. order = order in colorMaterialDict. sandHex = colour the ArtBoard shader draws (times the per-cell multi ~1.05 +-0.2). levelsUsing/cellsTotal from the downloaded levels.",
+ "colors": [
+  {
+   "order": 0,
+   "name": "PaleCream",
+   "sandHex": "#FFEAC0",
+   "rgba": [
+    1.0,
+    0.9176471,
+    0.75294125,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_PaleCream_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#E7E6E1",
+    "color": "#FFFFFF",
+    "hColor": "#FFEC99",
+    "sColor": "#6A4121",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape12.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#E7DFC7",
+    "color": "#FFFFFF",
+    "hColor": "#FFD19B",
+    "sColor": "#896950",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand12.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FFD496",
+    "color": "#FFE794",
+    "hColor": "#FFF9F2",
+    "sColor": "#A16330",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand12_0.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#FFECD0",
+    "color": "#FFFFFF",
+    "hColor": "#FFF9F2",
+    "sColor": "#735339",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 45,
+   "cellsTotal": 9085
+  },
+  {
+   "order": 1,
+   "name": "Yellow",
+   "sandHex": "#FFF71A",
+   "rgba": [
+    1.0,
+    0.9686275,
+    0.10196079,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Yellow_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FFD800",
+    "color": "#FFFFFF",
+    "hColor": "#FFFFFF",
+    "sColor": "#826B11",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape3.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FFDC06",
+    "color": "#FFFFFF",
+    "hColor": "#FFF9D7",
+    "sColor": "#6A5D0D",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand3_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FCFF58",
+    "color": "#FFFF03",
+    "hColor": "#FFF2AA",
+    "sColor": "#A15C02",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand3.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#F1DC36",
+    "color": "#FFFFFF",
+    "hColor": "#FFF2AA",
+    "sColor": "#9F7A00",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 740,
+   "cellsTotal": 118945
+  },
+  {
+   "order": 2,
+   "name": "Orange",
+   "sandHex": "#FFB235",
+   "rgba": [
+    1.0,
+    0.69803923,
+    0.20784315,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Orange_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#E0A53C",
+    "color": "#FFFFFF",
+    "hColor": "#FFF0D5",
+    "sColor": "#8E3B1B",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape2.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF9C00",
+    "color": "#FFFFFF",
+    "hColor": "#FFF0D5",
+    "sColor": "#6C3111",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand2.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FFBD55",
+    "color": "#FF8706",
+    "hColor": "#FFDDA0",
+    "sColor": "#A81800",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#FFA025",
+    "color": "#FFFFFF",
+    "hColor": "#FFDDA0",
+    "sColor": "#633E16",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 1292,
+   "cellsTotal": 219126
+  },
+  {
+   "order": 3,
+   "name": "RedOrange",
+   "sandHex": "#FF6833",
+   "rgba": [
+    1.0,
+    0.40784317,
+    0.20000002,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_RedOrange_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF7E51",
+    "color": "#FFFFFF",
+    "hColor": "#FFEEDF",
+    "sColor": "#602310",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape11 cam m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF7E51",
+    "color": "#FFFFFF",
+    "hColor": "#FFEEDF",
+    "sColor": "#602310",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand11.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#C06640",
+    "color": "#D93D20",
+    "hColor": "#FFEEDF",
+    "sColor": "#A84F34",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand11_0.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#C06640",
+    "color": "#FFFFFF",
+    "hColor": "#FFEEDF",
+    "sColor": "#A84F34",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 28,
+   "cellsTotal": 3384
+  },
+  {
+   "order": 4,
+   "name": "Red",
+   "sandHex": "#F3302F",
+   "rgba": [
+    0.95294124,
+    0.18823531,
+    0.18431373,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Red_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF3320",
+    "color": "#FFFFFF",
+    "hColor": "#FFFFFF",
+    "sColor": "#650008",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "shape1.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#F83E2E",
+    "color": "#FFFFFF",
+    "hColor": "#FFCBC4",
+    "sColor": "#601415",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand1.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FF5C4E",
+    "color": "#FB0808",
+    "hColor": "#FFCBC4",
+    "sColor": "#7B0608",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand2_0.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#FF5C4E",
+    "color": "#FFFFFF",
+    "hColor": "#FFCBC4",
+    "sColor": "#7B0608",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 970,
+   "cellsTotal": 140058
+  },
+  {
+   "order": 5,
+   "name": "LightPink",
+   "sandHex": "#FFB8FF",
+   "rgba": [
+    1.0,
+    0.72156864,
+    1.0,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_LightPink_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FFCBED",
+    "color": "#FFFFFF",
+    "hColor": "#FFE6F2",
+    "sColor": "#8C2D79",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape9.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FFC6EC",
+    "color": "#FFFFFF",
+    "hColor": "#FFBDDC",
+    "sColor": "#712649",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand9_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FFC6F5",
+    "color": "#FF86FF",
+    "hColor": "#FFBDDC",
+    "sColor": "#A4459C",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand9.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#FFC6F5",
+    "color": "#FFFFFF",
+    "hColor": "#FFBDDC",
+    "sColor": "#A4459C",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 393,
+   "cellsTotal": 67201
+  },
+  {
+   "order": 6,
+   "name": "HotPink",
+   "sandHex": "#FF3AE8",
+   "rgba": [
+    1.0,
+    0.227451,
+    0.909804,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_HotPink_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF52D5",
+    "color": "#FFFFFF",
+    "hColor": "#FFAAB8",
+    "sColor": "#76173B",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape10 h\u1ed3ng m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF52D5",
+    "color": "#FFFFFF",
+    "hColor": "#FFC9D2",
+    "sColor": "#651634",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand10.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FF5FE0",
+    "color": "#FF0CE2",
+    "hColor": "#FFAAB8",
+    "sColor": "#76173B",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand10_0.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#FF5FE0",
+    "color": "#FFFFFF",
+    "hColor": "#FFAAB8",
+    "sColor": "#76173B",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 18,
+   "cellsTotal": 3178
+  },
+  {
+   "order": 7,
+   "name": "Purple",
+   "sandHex": "#AD18FA",
+   "rgba": [
+    0.6784314,
+    0.09411766,
+    0.9803922,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Purple_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#9C18E0",
+    "color": "#FFFFFF",
+    "hColor": "#FFDFEA",
+    "sColor": "#691F76",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape8 t\u00edm m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#9618D7",
+    "color": "#FFFFFF",
+    "hColor": "#FFDFEA",
+    "sColor": "#691F76",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand8.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#C158FF",
+    "color": "#A704FF",
+    "hColor": "#FFDFEA",
+    "sColor": "#9A2FAD",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand8_0.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#9618D7",
+    "color": "#FFFFFF",
+    "hColor": "#FFDFEA",
+    "sColor": "#811F93",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 31,
+   "cellsTotal": 4161
+  },
+  {
+   "order": 8,
+   "name": "Cyan",
+   "sandHex": "#04EFFF",
+   "rgba": [
+    0.015686275,
+    0.93725497,
+    1.0,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Cyan_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#04EEFE",
+    "color": "#FFFFFF",
+    "hColor": "#CEFAFF",
+    "sColor": "#216685",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape6.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#04EEFE",
+    "color": "#FFFFFF",
+    "hColor": "#CEFAFF",
+    "sColor": "#113E52",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand6.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#00D1FF",
+    "color": "#00F2FF",
+    "hColor": "#CEFAFF",
+    "sColor": "#0873B9",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand6_0.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#2DFFFF",
+    "color": "#FFFFFF",
+    "hColor": "#CEFAFF",
+    "sColor": "#0873B9",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 976,
+   "cellsTotal": 214461
+  },
+  {
+   "order": 9,
+   "name": "Blue",
+   "sandHex": "#228AFF",
+   "rgba": [
+    0.13333334,
+    0.5411765,
+    1.0,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Blue_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#1168CA",
+    "color": "#FFFFFF",
+    "hColor": "#D2EFFF",
+    "sColor": "#3B45B2",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape7 blue \u0111\u1eadm.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#1168CA",
+    "color": "#FFFFFF",
+    "hColor": "#D2EFFF",
+    "sColor": "#2E368E",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand7_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#5DA2FF",
+    "color": "#1D63FF",
+    "hColor": "#D2EFFF",
+    "sColor": "#535CC0",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand7.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#2963B0",
+    "color": "#FFFFFF",
+    "hColor": "#D2EFFF",
+    "sColor": "#2E3AC5",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 32,
+   "cellsTotal": 6663
+  },
+  {
+   "order": 10,
+   "name": "LightGreen",
+   "sandHex": "#2FF22F",
+   "rgba": [
+    0.18431373,
+    0.9490197,
+    0.18431373,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_LightGreen_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#53FF53",
+    "color": "#FFFFFF",
+    "hColor": "#CFFFA5",
+    "sColor": "#134F13",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape5 green nh\u1ea1t.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#39FF39",
+    "color": "#FFFFFF",
+    "hColor": "#B4FF6D",
+    "sColor": "#1F571F",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand5_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#62F547",
+    "color": "#08F908",
+    "hColor": "#B9FF77",
+    "sColor": "#007D59",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand5.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#42F341",
+    "color": "#FFFFFF",
+    "hColor": "#B9FF77",
+    "sColor": "#007D59",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 31,
+   "cellsTotal": 4149
+  },
+  {
+   "order": 11,
+   "name": null,
+   "sandHex": "#96FF96",
+   "rgba": [
+    0.5882353,
+    1.0,
+    0.5882353,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_MidGreen_NoTex_NotUsed.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#3CFF3C",
+    "color": "#FFFFFF",
+    "hColor": "#ABFF3C",
+    "sColor": "#3C3C3C",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape4.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#E2FF9B",
+    "color": "#FFFFFF",
+    "hColor": "#CAE0AC",
+    "sColor": "#117600",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand4.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#E2FF9B",
+    "color": "#56FF56",
+    "hColor": "#CAE0AC",
+    "sColor": "#117600",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand4_0.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#DBFF83",
+    "color": "#FFFFFF",
+    "hColor": "#CAE0AC",
+    "sColor": "#157106",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 1,
+   "cellsTotal": 128
+  },
+  {
+   "order": 12,
+   "name": "DarkRed",
+   "sandHex": "#8C1313",
+   "rgba": [
+    0.54901963,
+    0.07450982,
+    0.07450982,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_DarkRed_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#8C1313",
+    "color": "#FFFFFF",
+    "hColor": "#FFE0DC",
+    "sColor": "#700608",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape1 \u0111\u1ecf \u0111\u1eadm.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#7B0000",
+    "color": "#FFFFFF",
+    "hColor": "#FFFFFF",
+    "sColor": "#7B0608",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand1 1 \u0111\u1ecf \u0111\u1eadm.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#8C1313",
+    "color": "#7B0000",
+    "hColor": "#FFCBC4",
+    "sColor": "#7B0608",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand2 \u0111\u1ecf \u0111\u1eadm.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#8C1313",
+    "color": "#FFFFFF",
+    "hColor": "#FFCBC4",
+    "sColor": "#7B0608",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 1046,
+   "cellsTotal": 160552
+  },
+  {
+   "order": 13,
+   "name": "Purple",
+   "sandHex": "#9618D7",
+   "rgba": [
+    0.58823544,
+    0.09411796,
+    0.84313875,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Purple_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#9C18E0",
+    "color": "#FFFFFF",
+    "hColor": "#FFDFEA",
+    "sColor": "#691F76",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape8 t\u00edm m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#9618D7",
+    "color": "#FFFFFF",
+    "hColor": "#FFDFEA",
+    "sColor": "#691F76",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand8 t\u00edm new_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#9618D7",
+    "color": "#8D00FF",
+    "hColor": "#FFDFEA",
+    "sColor": "#9A2FAD",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand8 t\u00edm new.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#8719C0",
+    "color": "#FFFFFF",
+    "hColor": "#FFDFEA",
+    "sColor": "#9A2FAD",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 401,
+   "cellsTotal": 74315
+  },
+  {
+   "order": 14,
+   "name": "Blue",
+   "sandHex": "#1168CA",
+   "rgba": [
+    0.06666667,
+    0.40784407,
+    0.7921589,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Blue_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#1168CA",
+    "color": "#FFFFFF",
+    "hColor": "#D2EFFF",
+    "sColor": "#3B45B2",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape7 blue \u0111\u1eadm.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#1168CA",
+    "color": "#FFFFFF",
+    "hColor": "#D2EFFF",
+    "sColor": "#2E368E",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand7 blue \u0111\u1eadm_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#1168CA",
+    "color": "#0030D6",
+    "hColor": "#D2EFFF",
+    "sColor": "#535CC0",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand7 blue \u0111\u1eadm.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#1168CA",
+    "color": "#FFFFFF",
+    "hColor": "#D2EFFF",
+    "sColor": "#535CC0",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 925,
+   "cellsTotal": 198134
+  },
+  {
+   "order": 15,
+   "name": "Cream",
+   "sandHex": "#FFF4DF",
+   "rgba": [
+    1.0,
+    0.95686334,
+    0.8745114,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Cream_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#F5EACB",
+    "color": "#FFFFFF",
+    "hColor": "#FFFCFF",
+    "sColor": "#4C453D",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape13 tr\u1eafng m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FFEED2",
+    "color": "#FFFFFF",
+    "hColor": "#CCC8AB",
+    "sColor": "#575555",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand13 lighttone m\u1edbi_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#E9E2D4",
+    "color": "#FFE5B8",
+    "hColor": "#FFF9F2",
+    "sColor": "#A16330",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand13 lighttone m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#E0CDA4",
+    "color": "#FFFFFF",
+    "hColor": "#FFFFFF",
+    "sColor": "#9A9A9A",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 1217,
+   "cellsTotal": 239929
+  },
+  {
+   "order": 16,
+   "name": "Salmon",
+   "sandHex": "#FF7E51",
+   "rgba": [
+    1.0,
+    0.4941177,
+    0.3176474,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_Salmon_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF7E51",
+    "color": "#FFFFFF",
+    "hColor": "#FFEEDF",
+    "sColor": "#602310",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape11 cam m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF7E51",
+    "color": "#FFFFFF",
+    "hColor": "#FFEEDF",
+    "sColor": "#602310",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand11 cam m\u1edbi_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FF7E51",
+    "color": "#FF3B17",
+    "hColor": "#FFEEDF",
+    "sColor": "#A84F34",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand11 cam m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#F1693A",
+    "color": "#FFFFFF",
+    "hColor": "#FFEEDF",
+    "sColor": "#A84F34",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 21,
+   "cellsTotal": 2023
+  },
+  {
+   "order": 17,
+   "name": "HotPink",
+   "sandHex": "#FF52D5",
+   "rgba": [
+    1.0,
+    0.32156894,
+    0.8352957,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_HotPink_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF52D5",
+    "color": "#FFFFFF",
+    "hColor": "#FFAAB8",
+    "sColor": "#76173B",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape10 h\u1ed3ng m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#FF52D5",
+    "color": "#FFFFFF",
+    "hColor": "#FFC9D2",
+    "sColor": "#651634",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand10 h\u1ed3ng m\u1edbi_0.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#FF52D5",
+    "color": "#FF18BB",
+    "hColor": "#FFAAB8",
+    "sColor": "#76173B",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand10 h\u1ed3ng m\u1edbi.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#FF5FD8",
+    "color": "#FFFFFF",
+    "hColor": "#FFAAB8",
+    "sColor": "#8E063A",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 602,
+   "cellsTotal": 87743
+  },
+  {
+   "order": 18,
+   "name": "LightGreen",
+   "sandHex": "#3CFF3C",
+   "rgba": [
+    0.23529433,
+    1.0,
+    0.23529433,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_LightGreen_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#53FF53",
+    "color": "#FFFFFF",
+    "hColor": "#CFFFA5",
+    "sColor": "#134F13",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape5 green nh\u1ea1t.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#39FF39",
+    "color": "#FFFFFF",
+    "hColor": "#B4FF6D",
+    "sColor": "#1F571F",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand5 green nh\u1ea1t.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#3CFF3C",
+    "color": "#0DFF0D",
+    "hColor": "#B9FF77",
+    "sColor": "#007D59",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand5 1 green nh\u1ea1t.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#3CFF3C",
+    "color": "#FFFFFF",
+    "hColor": "#B9FF77",
+    "sColor": "#007D59",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 350,
+   "cellsTotal": 57614
+  },
+  {
+   "order": 19,
+   "name": "DarkGreen",
+   "sandHex": "#009A00",
+   "rgba": [
+    0.0,
+    0.6039217,
+    0.0,
+    1.0
+   ],
+   "bucket": {
+    "material": "Bucket_DarkGreen_NoTex.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#059502",
+    "color": "#FFFFFF",
+    "hColor": "#B9FF77",
+    "sColor": "#005B00",
+    "tex": "TX_Swatches.png"
+   },
+   "insideBucket": {
+    "material": "Shape5 green d\u1eadm.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2.shader",
+    "baseColor": "#299829",
+    "color": "#FFFFFF",
+    "hColor": "#B9FF77",
+    "sColor": "#0D634A",
+    "tex": "Untitled_xo.007_Diffuse.png"
+   },
+   "grainParticle": {
+    "material": "sand5 green \u0111\u1eadm.mat",
+    "shader": "0000000000000000f000000000000000",
+    "baseColor": "#009A00",
+    "color": "#005B00",
+    "hColor": "#B9FF77",
+    "sColor": "#007D59",
+    "tex": null
+   },
+   "sand": {
+    "material": "sand5 1 green \u0111\u1eadm.mat",
+    "shader": "Toony Colors Pro 2_Hybrid Shader 2 (Outline).shader",
+    "baseColor": "#009A00",
+    "color": "#FFFFFF",
+    "hColor": "#B9FF77",
+    "sColor": "#007D59",
+    "tex": "cat_Base_color.png"
+   },
+   "levelsUsing": 774,
+   "cellsTotal": 135071
+  }
+ ]
+}

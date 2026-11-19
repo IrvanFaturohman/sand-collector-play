@@ -1,0 +1,1157 @@
+{
+ "note": "Gem Collector 1.1.7 colours per colorID [D mainScene]. body = MinionManager.minionColors[id]: used for the minion body (_Color), the tile body (_Color1/_Color2 when TileManager.coloredTile=1) and the gem (_Color) [C DrawMinions/DrawTiles/DrawGems]. outline = MinionManager.outlineColors[id] (_OutlineColor / _OutlineColor1/2). Shaders then apply saturation/brightness/emission per state (see 03 section 6).",
+ "colors": [
+  {
+   "colorID": 0,
+   "body": "#A85D5D",
+   "outline": "#5B1919",
+   "goal": "#FF6161",
+   "name": "RED",
+   "selectParticleMat": "0_selectParticle0.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#FF9999",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 1,
+   "body": "#5487D1",
+   "outline": "#072F8C",
+   "goal": "#006BFF",
+   "name": "BLUE",
+   "selectParticleMat": "0_selectParticle1.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#06A1FF",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 2,
+   "body": "#CFAC09",
+   "outline": "#734207",
+   "goal": "#FFC200",
+   "name": "YELLOW",
+   "selectParticleMat": "0_selectParticle2.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#FFD600",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 3,
+   "body": "#419557",
+   "outline": "#074829",
+   "goal": "#824CFF",
+   "name": "PURPLE",
+   "selectParticleMat": "0_selectParticle3.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#00CA3D",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 4,
+   "body": "#CC94BA",
+   "outline": "#76295E",
+   "goal": "#0AAD06",
+   "name": "GREEN",
+   "selectParticleMat": "0_selectParticle4.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#FFB6DD",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 5,
+   "body": "#8666BC",
+   "outline": "#450F82",
+   "goal": "#FF6BD0",
+   "name": "PINK",
+   "selectParticleMat": "0_selectParticle5.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#B879FF",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 6,
+   "body": "#9FB05E",
+   "outline": "#405216",
+   "goal": "#AFDD00",
+   "name": "CHARTREUSE",
+   "selectParticleMat": "0_selectParticle6.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#D9EE62",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 7,
+   "body": "#55A9B2",
+   "outline": "#074B52",
+   "goal": "#15D6E9",
+   "name": "CYAN",
+   "selectParticleMat": "0_selectParticle7.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#00FFF8",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 8,
+   "body": "#826F5F",
+   "outline": "#43270A",
+   "goal": "#764B24",
+   "name": "BROWN",
+   "selectParticleMat": "0_selectParticle8.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#B7987A",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 9,
+   "body": "#B0B0B0",
+   "outline": "#4F4F4F",
+   "goal": "#3C3C3C",
+   "name": "GRAY",
+   "selectParticleMat": "0_selectParticle9.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#FFFFFF",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 10,
+   "body": "#C89052",
+   "outline": "#65270B",
+   "goal": null,
+   "name": null,
+   "selectParticleMat": "0_selectParticle10.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#FFAA6B",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 11,
+   "body": "#50567D",
+   "outline": "#121E5E",
+   "goal": null,
+   "name": null,
+   "selectParticleMat": "0_selectParticle11.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#596EB7",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 12,
+   "body": "#516A5C",
+   "outline": "#082919",
+   "goal": null,
+   "name": null,
+   "selectParticleMat": "0_selectParticle12.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#248440",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 13,
+   "body": "#7D3A7A",
+   "outline": "#480635",
+   "goal": null,
+   "name": null,
+   "selectParticleMat": "0_selectParticle13.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#DB64B6",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 14,
+   "body": "#5E3E3F",
+   "outline": "#290909",
+   "goal": null,
+   "name": null,
+   "selectParticleMat": "0_selectParticle14.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#9C6565",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  },
+  {
+   "colorID": 15,
+   "body": "#A8A8A8",
+   "outline": "#414141",
+   "goal": null,
+   "name": null,
+   "selectParticleMat": "0_selectParticle15.mat",
+   "selectParticleColors": {
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#7200E7",
+    "_ColorAddSubDiff": "#00000000",
+    "_EmissionColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_TintColor": "#FFFFFF"
+   }
+  }
+ ],
+ "special": {
+  "hiddenColor (minion body when hidden)": "#333333",
+  "collectedOutlineColor": "#241D1E",
+  "tileNeutralColor (when coloredTile=0)": "#CAC6D1",
+  "coloredTile": "1",
+  "tileFlashingColor": "#FFFFFF",
+  "arrowTileColor": "#626262",
+  "arrowTileOutlineColor": "#202020",
+  "keyLockColors": [
+   "#FF1919",
+   "#FFC304",
+   "#04FF35",
+   "#9D04FF"
+  ],
+  "keyLockMats": [
+   "0_keyLock_0.mat",
+   "0_keyLock_1.mat",
+   "0_keyLock_2.mat",
+   "0_keyLock_3.mat"
+  ],
+  "camera clear colour (Main Camera)": "#C1D4E0",
+  "ThemeManager.camColors": [
+   "#CBC1DB"
+  ]
+ },
+ "materials": {
+  "bg_Solid": {
+   "shader": "Unlit_MyTransparent.shader",
+   "colors": {
+    "_BurnColor": "#FFFFFF",
+    "_Color": "#7DC5E7",
+    "_ColorGlass": "#FFFFFF",
+    "_EmissionColor": "#3A000D",
+    "_RimColor": "#FFFFFF",
+    "_SpecColor": "#414141",
+    "_SpecularColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": -0.98,
+    "_EmissionMult": 0.0,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 0.0,
+    "_ReflectionIntensity": 1.0,
+    "_Saturation": -0.38
+   }
+  },
+  "bg_Gradient": {
+   "shader": "Unlit_MyTransparent.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#92A7F1",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_HColor": "#FFFFFF",
+    "_MainColor": "#0C6DCC",
+    "_SColor": "#DBDBDB",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {
+    "_MainTex": "topBottomGradient.png"
+   },
+   "floats": {
+    "_Brightness": 1.0,
+    "_EmissionMult": 4.25,
+    "_Glossiness": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_Saturation": 1.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_minionPattern": {
+   "shader": "Unlit_MyTransparent.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#FFFFFF18",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_HColor": "#FFFFFF",
+    "_MainColor": "#0C6DCC",
+    "_SColor": "#DBDBDB",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {
+    "_MainTex": "minionPattern.png"
+   },
+   "floats": {
+    "_Brightness": 1.0,
+    "_EmissionMult": 4.25,
+    "_Glossiness": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_Saturation": 1.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_shadowCatcher": {
+   "shader": "Custom_TransparentShadowCollector.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#482DFF",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_HColor": "#FFFFFF",
+    "_MainColor": "#0C6DCC",
+    "_SColor": "#DBDBDB",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 1.0,
+    "_EmissionMult": 4.25,
+    "_Glossiness": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_Saturation": 1.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_conveyor": {
+   "shader": "Custom_MySimpleSurface_Conveyor.shader",
+   "colors": {
+    "_Color": "#585963",
+    "_EmissionColor": "#290D00",
+    "_HColor": "#676767",
+    "_RimColor": "#CCCCCC99",
+    "_SColor": "#000000",
+    "_WarningColor": "#FF0000"
+   },
+   "textures": {
+    "_MainTex": "conveyorTexture.png"
+   },
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 1.28,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_Saturation": 0.0
+   }
+  },
+  "0_conveyor_Arrow": {
+   "shader": "Unlit_MyTransparent_Animated.shader",
+   "colors": {
+    "_AnimationSpeed": "#00FF0000",
+    "_Color": "#00000010",
+    "_EmissionColor": "#290D00",
+    "_HColor": "#676767",
+    "_RimColor": "#CCCCCC99",
+    "_SColor": "#000000",
+    "_WarningColor": "#FF0000"
+   },
+   "textures": {
+    "_MainTex": "conveyorArrow.png"
+   },
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 1.28,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_Saturation": 0.0
+   }
+  },
+  "0_groundTop": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#8263A8",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": -0.268,
+    "_EmissionMult": 0.268,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 1.0,
+    "_OutlineWidth": 0.0,
+    "_Saturation": -0.198,
+    "_Surface": 0.0
+   }
+  },
+  "0_ground": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#42414F",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 1.98,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 1.0,
+    "_OutlineWidth": 0.0,
+    "_Saturation": 0.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_trayTop": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#443D65",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 1.28,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 1.0,
+    "_OutlineWidth": 0.0,
+    "_Saturation": 0.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_trayBottom": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#232137",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 1.98,
+    "_Glossiness": 0.142,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 1.0,
+    "_OutlineWidth": 0.0,
+    "_Saturation": 0.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_door": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#5B4327",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": -1.05,
+    "_EmissionMult": 1.28,
+    "_Glossiness": 0.282,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 1.0,
+    "_OutlineWidth": 0.0,
+    "_Saturation": 0.468,
+    "_Surface": 0.0
+   }
+  },
+  "0_doorCenter": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#322D4D",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 1.28,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 1.0,
+    "_OutlineWidth": 0.0,
+    "_Saturation": 0.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_gemMat": {
+   "shader": "Custom_MySimpleSurface_Reflection.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#B96B6B",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#B7B7B7",
+    "_HiddenColor": "#FFFFFF",
+    "_HiddenOutlineColor": "#262626",
+    "_JiggleFrequency": "#0D0D0000",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#9A0505",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF",
+    "_WiggleVector": "#00000000"
+   },
+   "textures": {
+    "_Cube": "studio_small_02_1k_multipleHilight.png",
+    "_HiddenTex": "hiddenTexture_Gem.png"
+   },
+   "floats": {
+    "_Brightness": -1.86,
+    "_EmissionMult": 0.128,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.186,
+    "_HiddenIntensity": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 0.68,
+    "_OutlineWidth": 0.0268,
+    "_ReflectionIntensity": 1.98,
+    "_Saturation": 0.568,
+    "_Surface": 0.0,
+    "_TextureMult": 1.0
+   }
+  },
+  "0_minionMat": {
+   "shader": "Custom_MySimpleSurface_Wiggle.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#B96B6B",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#B7B7B7",
+    "_JiggleFrequency": "#0D0D0000",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF",
+    "_WiggleVector": "#00000000"
+   },
+   "textures": {
+    "_Cube": "studio_small_02_1k copy.png",
+    "_MainTex": "minionTexture0.png"
+   },
+   "floats": {
+    "_Brightness": -1.728,
+    "_EmissionMult": 0.268,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.168,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 0.568,
+    "_OutlineWidth": 0.0468,
+    "_ReflectionIntensity": 0.68,
+    "_Saturation": 0.68,
+    "_Surface": 0.0,
+    "_TextureMult": 1.0
+   }
+  },
+  "0_tile3": {
+   "shader": "Custom_MySimpleSurface_GemCollectorTile.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#FFFFFF",
+    "_Color1": "#FF6B6B",
+    "_Color2": "#CF9D00",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#A8A2B2",
+    "_HiddenColor": "#FFFFFF",
+    "_HiddenOutlineColor": "#2E2E2E",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#08060A",
+    "_OutlineColor1": "#000000",
+    "_OutlineColor2": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {
+    "_HiddenTex": "hiddenTexture.png"
+   },
+   "floats": {
+    "_Brightness": -1.68,
+    "_EmissionMult": 0.268,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 1.0,
+    "_HiddenIntensity": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -0.468,
+    "_OutlineWidth": 0.0468,
+    "_ReflectionIntensity": 1.0,
+    "_Saturation": 0.68,
+    "_Surface": 0.0
+   }
+  },
+  "0_tile_Frozen": {
+   "shader": "Custom_MySimpleSurface_Push.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#85BFD4",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#A8A2B2",
+    "_HiddenColor": "#FFFFFF",
+    "_HiddenOutlineColor": "#000000",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#00CBFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {
+    "_MainTex": "iceTexture2.png"
+   },
+   "floats": {
+    "_Brightness": -1.34,
+    "_EmissionMult": -0.07,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 1.0,
+    "_HiddenIntensity": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 6.8,
+    "_OutlineWidth": 0.04,
+    "_ReflectionIntensity": 1.0,
+    "_Saturation": 0.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_tile_Frozen_2ndMilestone": {
+   "shader": "Custom_MySimpleSurface_Push.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#506D7B",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#A8A2B2",
+    "_HiddenColor": "#FFFFFF",
+    "_HiddenOutlineColor": "#000000",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#00BBFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {
+    "_MainTex": "UV_Cube_Photoshop.png"
+   },
+   "floats": {
+    "_Brightness": -1.0,
+    "_EmissionMult": 0.768,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 1.0,
+    "_HiddenIntensity": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -0.68,
+    "_OutlineWidth": 0.0498,
+    "_ReflectionIntensity": 1.0,
+    "_Saturation": 0.468,
+    "_Surface": 0.0
+   }
+  },
+  "0_tile_Frozen_2ndMilestone_Disabled": {
+   "shader": "Custom_MySimpleSurface_Push.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#6C6C6C",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#A8A2B2",
+    "_HiddenColor": "#FFFFFF",
+    "_HiddenOutlineColor": "#000000",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#00BBFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {
+    "_MainTex": "UV_Cube_Photoshop.png"
+   },
+   "floats": {
+    "_Brightness": -1.0,
+    "_EmissionMult": 0.768,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 1.0,
+    "_HiddenIntensity": 0.0,
+    "_Metallic": 0.768,
+    "_Mode": 1.0,
+    "_OutlineEmission": -0.68,
+    "_OutlineWidth": 0.0498,
+    "_ReflectionIntensity": 1.0,
+    "_Saturation": -1.28,
+    "_Surface": 0.0
+   }
+  },
+  "0_tile_Connected": {
+   "shader": "Custom_MySimpleSurface_Push.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#1A1A1A",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#A8A2B2",
+    "_HiddenColor": "#FFFFFF",
+    "_HiddenOutlineColor": "#000000",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 0.0,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.607,
+    "_HiddenIntensity": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": 3.0,
+    "_OutlineWidth": 0.0,
+    "_ReflectionIntensity": 1.0,
+    "_Saturation": 0.0,
+    "_Surface": 0.0
+   }
+  },
+  "0_hatMat_Stone": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#BABABA",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#B7B7B7",
+    "_HiddenColor": "#FFFFFF",
+    "_HiddenOutlineColor": "#262626",
+    "_JiggleFrequency": "#0D0D0000",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#000000",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF",
+    "_WiggleVector": "#00000000"
+   },
+   "textures": {
+    "_MainTex": "stoneTexture.png"
+   },
+   "floats": {
+    "_Brightness": -1.86,
+    "_EmissionMult": 0.128,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.0,
+    "_HiddenIntensity": 0.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -1.0,
+    "_OutlineWidth": 0.0268,
+    "_ReflectionIntensity": 1.98,
+    "_Saturation": 0.568,
+    "_Surface": 0.0,
+    "_TextureMult": 1.0
+   }
+  },
+  "0_busTunnel": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#666D80",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 0.68,
+    "_EmissionMult": 0.68,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.468,
+    "_Mode": 1.0,
+    "_OutlineEmission": -1.0,
+    "_OutlineWidth": 0.0,
+    "_ReflectionIntensity": 0.468,
+    "_Saturation": 0.298,
+    "_Surface": 0.0
+   }
+  },
+  "0_keyLock_0": {
+   "shader": "Custom_MySimpleSurface_Outline.shader",
+   "colors": {
+    "_BumpFrequency": "#2B2B0000",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#802121",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#FFFFFF",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecColor": "#000000"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": -1.28,
+    "_EmissionMult": 0.58,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.86,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -1.0,
+    "_OutlineWidth": 0.0368,
+    "_Saturation": 0.128
+   }
+  },
+  "0_keyLock_1": {
+   "shader": "Custom_MySimpleSurface_Outline.shader",
+   "colors": {
+    "_BumpFrequency": "#2B2B0000",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#AD6F0B",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#FFFFFF",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecColor": "#000000"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": -1.28,
+    "_EmissionMult": 0.58,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.86,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -1.0,
+    "_OutlineWidth": 0.0468,
+    "_Saturation": 0.128
+   }
+  },
+  "0_keyLock_2": {
+   "shader": "Custom_MySimpleSurface_Outline.shader",
+   "colors": {
+    "_BumpFrequency": "#2B2B0000",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#136732",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#FFFFFF",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecColor": "#000000"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": -1.28,
+    "_EmissionMult": 0.58,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.86,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -1.0,
+    "_OutlineWidth": 0.0468,
+    "_Saturation": 0.128
+   }
+  },
+  "0_keyLock_3": {
+   "shader": "Custom_MySimpleSurface_Outline.shader",
+   "colors": {
+    "_BumpFrequency": "#2B2B0000",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#7F24B9",
+    "_EmissionColor": "#290D00",
+    "_FogColor": "#FFFFFF",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecColor": "#000000"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": -1.28,
+    "_EmissionMult": 0.58,
+    "_FogIntensity": 0.0,
+    "_Glossiness": 0.86,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -1.0,
+    "_OutlineWidth": 0.0468,
+    "_Saturation": 0.128
+   }
+  },
+  "0_fence_Border_Ice": {
+   "shader": "Custom_MySimpleSurface_Gradient.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#008EC8",
+    "_ColorAddSubDiff": "#FF000000",
+    "_ColorBottom": "#3F5F82",
+    "_ColorTop": "#60ADBE",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {
+    "_MainTex": "ice3.png"
+   },
+   "floats": {
+    "_Brightness": -0.768,
+    "_EmissionMult": 1.26,
+    "_Glossiness": 1.0,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -0.468,
+    "_OutlineWidth": 0.03,
+    "_ReflectionIntensity": 0.0,
+    "_Saturation": -0.98,
+    "_Surface": 0.0
+   }
+  },
+  "0_tableTop": {
+   "shader": "Custom_MySimpleSurface.shader",
+   "colors": {
+    "_AmbientColor": "#434343",
+    "_BaseColor": "#FFFFFF",
+    "_BaseColorAddSubDiff": "#00000000",
+    "_BurnColor": "#FFFFFF",
+    "_CameraFadeParams": "{r: 0, g: Infinity, b: 0, a: 0}",
+    "_Color": "#2B323A",
+    "_ColorAddSubDiff": "#FF000000",
+    "_EmisColor": "#FFFFFF",
+    "_EmissionColor": "#290D00",
+    "_MainColor": "#0C6DCC",
+    "_OutlineColor": "#FFFFFF",
+    "_SoftParticleFadeParams": "#00000000",
+    "_SpecularColor": "#04040400",
+    "_TintColor": "#FFFFFF"
+   },
+   "textures": {},
+   "floats": {
+    "_Brightness": 0.0,
+    "_EmissionMult": 1.98,
+    "_Glossiness": 0.128,
+    "_Metallic": 0.0,
+    "_Mode": 1.0,
+    "_OutlineEmission": -0.468,
+    "_OutlineWidth": 0.03,
+    "_ReflectionIntensity": 0.0,
+    "_Saturation": 0.0,
+    "_Surface": 0.0
+   }
+  }
+ }
+}
